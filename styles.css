@@ -1,0 +1,108 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(40, 40, 40) 35%, rgb(0, 0, 0) 100%);
+}
+.calculator{
+    padding: 30px;
+    /*background-image: conic-gradient(black, rgb(28, 28, 28), rgb(16, 16, 16),rgb(49, 48, 48),black);*/
+    background-color: rgb(39, 39, 39);
+    border-radius: 20px;
+    box-shadow: -1px -1px 10px  aquamarine, 1px 1px 10px  aquamarine;
+}
+
+.calculator:hover{
+    box-shadow: -2px -2px 2px  aquamarine, 2px 2px 2px aquamarine;
+    transition: 0.5s;
+}
+
+
+.calculator form input{
+    background-color: darkgray ;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 6px;
+    font-size: 20px;
+    cursor: pointer ;
+    box-shadow: -5px -5px 5px 0.1px gray, 5px 5px 5px 0.8px rgb(44, 44, 44);
+}
+
+.Display{
+    border-radius: 10px;
+}
+
+
+
+form .Display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+#operators{
+    background-color: #ffaf02;
+    color: whitesmoke;
+}
+
+#Toprow{
+    background-color: whitesmoke;
+
+}
+
+form .Display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+}
+
+#id{
+    background-color: limegreen;
+    color: whitesmoke;
+}
+
+#Equalto{
+    background-color: aquamarine;
+    width: 45%;
+}
+
+#Equalto:hover{
+    color: black;
+}
+
+form input:hover{
+    transition: 0.1s;
+    color: orangered;
+    font-weight: bolder;
+    background-color: rgb(222, 222, 222);
+    filter: brightness(10px);
+    box-shadow: -1px -1px 1px 1px white,1px 1px 1px 1px white;
+
+}
+
+/*form input:hover{
+    animation-name: colors ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors{
+    0%{
+        box-shadow: -5px -5px 5px 0.1px orangered, 5px 5px 5px 0.8px orange;
+    }25%{
+        box-shadow: -5px -5px 5px 0.1px orange, 5px 5px 5px 0.8px orangered;
+    }50%{
+        box-shadow: -5px -5px 5px 0.1px orangered, 5px 5px 5px 0.8px orange;
+    } 75%{
+        box-shadow: -5px -5px 5px 0.1px orange, 5px 5px 5px 0.8px orangered;
+    } 
+    100%{
+        box-shadow: -5px -5px 5px 0.1px orangered, 5px 5px 5px 0.8px orange;
+    }
+}

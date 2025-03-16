@@ -85,24 +85,3 @@ form input:hover{
     box-shadow: -1px -1px 1px 1px white,1px 1px 1px 1px white;
 
 }
-
-/*form input:hover{
-    animation-name: colors ;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes colors{
-    0%{
-        box-shadow: -5px -5px 5px 0.1px orangered, 5px 5px 5px 0.8px orange;
-    }25%{
-        box-shadow: -5px -5px 5px 0.1px orange, 5px 5px 5px 0.8px orangered;
-    }50%{
-        box-shadow: -5px -5px 5px 0.1px orangered, 5px 5px 5px 0.8px orange;
-    } 75%{
-        box-shadow: -5px -5px 5px 0.1px orange, 5px 5px 5px 0.8px orangered;
-    } 
-    100%{
-        box-shadow: -5px -5px 5px 0.1px orangered, 5px 5px 5px 0.8px orange;
-    }
-}
